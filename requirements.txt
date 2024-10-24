@@ -2,11 +2,12 @@ omegaconf==2.3.0
 Pillow==10.1.0
 einops==0.7.0
 git+https://github.com/tatsy/torchmcubes.git
-transformers==4.35.0
 trimesh==4.0.5
 rembg
-huggingface-hub
+huggingface-hub>=0.23.2
+transformers
 imageio[ffmpeg]
 gradio
+pymeshlab
 xatlas==0.0.9
 moderngl==5.10.0
